@@ -7,7 +7,7 @@ describe("item management", () => {
 
         cy.request({
             method: 'POST',
-            url: 'http://localhost:6001/auth/login',
+            url: 'http://149.100.138.125:6001/auth/login',
             body: {
                 email: "teste@teste.com",
                 password: "Teste1234!"
@@ -19,7 +19,7 @@ describe("item management", () => {
 
             cy.request({
                 method: 'GET',
-                url: 'http://localhost:6001/items',
+                url: 'http://149.100.138.125:6001/items',
                 headers: {
                     Authorization: "Bearer " + token,
                     accept: "application/json"
