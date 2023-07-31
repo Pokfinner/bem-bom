@@ -2,7 +2,6 @@
 
 describe('Test e-mail sending', () => {
 
-
     it('should login', () => {
 
 
