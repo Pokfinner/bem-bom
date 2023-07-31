@@ -19,8 +19,6 @@ describe('Test e-mail sending', () => {
 
         cy.get('sapo_widget_login_form input[type="text"]').type("testito")
 
-
-
     })
 
 
